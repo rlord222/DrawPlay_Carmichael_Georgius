@@ -26,6 +26,16 @@ public class Cat {
 	// pick ear dimensions
 	private static final int EAR_HEIGHT = 75;
 	private static final int EAR_WIDTH = 40;
+	//make a fish
+	private static final int FISH_X = HEAD_DIMENSION+30;
+	private static final int FISH_Y = HEAD_DIMENSION/5 * 3;
+	private static final int FISH_HEIGHT = 15;
+	private static final int FISH_WIDTH = 90;
+	private static final int FISH_EYE_X = HEAD_DIMENSION+40;
+	private static final int FISH_EYE_Y = FISH_Y+5;
+	private static final int FISH_EYE = 7;
+	private static final int[] FISH_X_POINTS = {FISH_X+FISH_WIDTH-10,FISH_X+FISH_WIDTH+20,FISH_X+FISH_WIDTH+20};
+	private static final int[] FISH_Y_POINTS = {FISH_EYE_Y,FISH_EYE_Y-15,FISH_EYE_Y+15};
 	
 	// draw will render the Cat on the Graphics object
 	public void draw(Graphics g, int catX, int catY)
@@ -59,10 +69,18 @@ public class Cat {
 		x = catX + MOUTH_X;
 		y = catY + MOUTH_Y;
 		g2.fillOval(x, y, MOUTH_WIDTH, MOUTH_HEIGHT);
+		//draw fish
+		g2.setColor(Color.gray);
+		g2.fillOval(FISH_X, FISH_Y, FISH_WIDTH, FISH_HEIGHT);
+		g2.fillPolygon(FISH_X_POINTS, FISH_Y_POINTS, 3);
+		g2.setColor(Color.red);
+		g2.fillOval(FISH_EYE_X, FISH_EYE_Y, FISH_EYE, FISH_EYE);
 		
 		g2.setColor(Color.black);
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
 		g2.drawString("MEOW", catX, catY+HEAD_DIMENSION+10);	
+		
+
 	}
 }
