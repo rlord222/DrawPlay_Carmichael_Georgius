@@ -2,6 +2,10 @@ import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.geom.*;
 
+/*
+ * Jack Carmichael
+ * Riely Georgius
+ */
 public class Cat {
 	// drawing constants are private - no one needs to know what we're doing
 	// pick a head dimension

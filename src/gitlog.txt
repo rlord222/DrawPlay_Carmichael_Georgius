@@ -1,0 +1,50 @@
+//Jack Carmichael (carmichaeljr)
+//Riely Georgius (rlord222)
+
+commit 1736b9c48b3462f41b9ec7bca2da8c6aabaf98e0
+Author: carmichaeljr <carmichaeljr@outlook.com>
+Date:   Tue Sep 29 19:06:57 2020 -0600
+
+    Changed text color
+
+commit f4090a84f5da52765504bafed1d64194ffd8e2f5
+Author: rlord222 <63765345+rlord222@users.noreply.github.com>
+Date:   Tue Sep 29 18:01:28 2020 -0600
+
+    Added a fish
+
+commit 8e7c8b9a2d36e1e481fc9bfb4af28a5da5883b81
+Author: carmichaeljr <carmichaeljr@outlook.com>
+Date:   Tue Sep 29 17:11:55 2020 -0600
+
+    Changed eye color and made text caps
+
+commit 3664bd80352f8cad89de6bd6a66f99eb5a6e1c36
+Author: rlord222 <63765345+rlord222@users.noreply.github.com>
+Date:   Tue Sep 29 17:06:25 2020 -0600
+
+    Added ears and changed bottom text color to black
+
+commit 7c0df586c06ffe8eaede69a2acec578359b5b9fd
+Author: carmichaeljr <carmichaeljr@outlook.com>
+Date:   Tue Sep 29 16:29:39 2020 -0600
+
+    Changed mouth and eyes
+
+commit a1e74e7e268eccfa7234ed2265748035bab878bb
+Author: rlord222 <63765345+rlord222@users.noreply.github.com>
+Date:   Tue Sep 29 13:20:09 2020 -0600
+
+    Made the cat twice as big and orange
+
+commit 3ec6e8fb62859247004e56fb2687903b792fe6f5
+Author: carmichaeljr <carmichaeljr@outlook.com>
+Date:   Tue Sep 29 11:46:06 2020 -0600
+
+    Added initial files
+
+commit dc033b0549ecf865a048b4e26f382dd1c3303163
+Author: rlord222 <63765345+rlord222@users.noreply.github.com>
+Date:   Tue Sep 29 11:21:57 2020 -0600
+
+    Initial commit
